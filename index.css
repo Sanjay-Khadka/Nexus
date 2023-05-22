@@ -37,7 +37,7 @@ button {
   background-color: #1b1b1b;
   color: white;
   border: 1px solid white;
-  padding: 10px 20px;
+  padding: 12px 22px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@ span {
   color: white;
   font-size: 20px;
   border: 1px solid white;
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
@@ -88,7 +88,7 @@ span {
   align-items: center;
   flex-shrink: 0;
   flex-grow: 0;
-  gap: 170px;
+  gap: 150px;
   padding: 50px 0;
   background-color: #1b1b1b;
 }
@@ -101,10 +101,17 @@ span {
   min-width: 250px;
   border-radius: 10px;
   border: 1px solid rgb(211, 208, 208);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .feature-card:hover {
-  min-width: 280px;
-  min-height: 320px;
+  /* min-width: 280px; */
+  /* min-height: 320px; */
+  transform: scale(1.2);
+}
+
+h2 {
+  color: white;
+  margin-top: 25px;
+  font-size: 30px;
 }
