@@ -6,6 +6,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: #e6eaef;
+  font-family: "Roboto", sans-serif;
   h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -73,6 +74,7 @@ body {
             height: 50px;
             margin: 0 auto;
             border: none;
+            cursor: pointer;
           }
         }
         input {
@@ -122,6 +124,15 @@ body {
               color: #000000;
             }
           }
+        }
+      }
+      .login-wrapper {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        span {
+          font-size: 18px;
         }
       }
     }
