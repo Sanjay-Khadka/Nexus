@@ -79,6 +79,14 @@ body .form-container form .input-wrapper .password-wrapper .show-hide-btn {
   border: none;
   cursor: pointer;
 }
+body .form-container form .input-wrapper .password-wrapper .show-hide-btn:hover {
+  outline: none;
+  font-weight: bold;
+}
+body .form-container form .input-wrapper .password-wrapper .show-hide-btn:focus {
+  outline: none;
+  font-weight: bold;
+}
 body .form-container form .input-wrapper input {
   border: 1px solid #1b1b1b;
   border-radius: 4px;

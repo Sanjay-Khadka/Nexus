@@ -75,6 +75,14 @@ body {
             margin: 0 auto;
             border: none;
             cursor: pointer;
+            &:hover {
+              outline: none;
+              font-weight: bold;
+            }
+            &:focus {
+              outline: none;
+              font-weight: bold;
+            }
           }
         }
         input {
